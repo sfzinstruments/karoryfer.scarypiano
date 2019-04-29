@@ -1,0 +1,23 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="775" h="335" image="Piano_controls_bkg.png" transparent="0"  />
+
+
+        <!-- Controls - no labels, just mysterious eyeballs -->
+
+	<!-- StaticText x="26"  y="32" w="70" h="18" text="Envelope:" color_text="#000000FF" transparent="1"/ -->
+
+	<!-- StaticText x="126"  y="32" w="70" h="18" text="Attack" color_text="#000000FF" transparent="1"/ -->
+	
+	<Knob param="101" x="145"  y="120" image="Eye_40.png" frames="128"   />
+	
+	<Knob param="102" x="295"  y="120" image="Eye_40.png" frames="128"  />
+	
+	<Knob param="103" x="445"  y="120" image="Eye_40.png" frames="128"  />
+
+	<Knob param="100" x="595"  y="120" image="Eye_40.png" frames="128"  />
+	
+	
+</GUI>
